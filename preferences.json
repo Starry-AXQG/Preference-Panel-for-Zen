@@ -116,6 +116,15 @@
         "label": "Place the search engine below the search suggestions to provide an efficient way to switch between search engines.(Need restart browser)",
         "defaultValue": false
         
-    }
+    },
 
+    {
+        "type": "separator",
+        "label": "You can remove this mod at any time after completing the preference settings. Removing and installing mods will not have any impact on your changes."
+    },
+
+    {
+        "type": "separator",
+        "label": "If you have any additional information regarding the hidden preference settings, please feel free to let me know or submit a pull request."
+    }
 ]
