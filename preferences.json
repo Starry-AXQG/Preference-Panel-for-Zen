@@ -113,7 +113,7 @@
 
         "type": "checkbox",
         "property": "zen.urlbar.hide-one-offs",
-        "label": "Place the search engine below the search suggestions to provide an efficient way to switch between search engines.(Need restart browser)",
+        "label": "Disenable bottom search engine. Place the search engine below the search suggestions to provide an efficient way to switch between search engines.(Need restart browser)",
         "defaultValue": false
         
     },
