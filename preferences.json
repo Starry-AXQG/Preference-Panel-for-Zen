@@ -11,7 +11,7 @@
 
         "type": "checkbox",
         "property": "zen.urlbar.replace-newtab",
-        "label": "Change the behavior of new tab",
+        "label": "Change the behavior of New Tab",
         "defaultValue": false
 
     },
@@ -29,7 +29,7 @@
 
         "type": "checkbox",
         "property": "browser.tabs.groups.enabled",
-        "label": "Enable the Tag Group",
+        "label": "Enable the Tab Group",
         "defaultValue": false
 
     },
