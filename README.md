@@ -11,12 +11,10 @@
 
 
 # 🚀 Announcement:
-
+This mod can only be installed using Sine.
 
 ## 🔖 **Installation Guide** (Windows, macOS, and Linux)
 ***—————————— install it directly through Sine ————————————***
-
-(By installing this mod using Sine, you can always receive subsequent updates for this mod.And it is also more convenient to modify the preference settings provided by this mod.)
 
 **1.First**
 
