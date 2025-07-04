@@ -28,11 +28,30 @@
     {
 
         "type": "checkbox",
+        "property": "gfx.webrender.super-resolution.nvidia",
+        "label": "Enable NVIDIA VSR (It must be enabled simultaneously with the settings below. ⚠️ Note: Some mods may prevent VSR from functioning properly, such as Nebula.)",
+        "defaultValue": false
+        
+    },
+
+    {
+
+        "type": "checkbox",
+        "property": "gfx.webrender.dcomp-video-hw-overlay-win-force-enabled",
+        "label": "Enable NVIDIA VSR (It must be enabled simultaneously with the settings above. ⚠️ Note: Some mods may prevent VSR from functioning properly, such as Nebula.)",
+        "defaultValue": false
+        
+    },
+
+
+    {
+
+        "type": "checkbox",
         "property": "media.videocontrols.picture-in-picture.enable-when-switching-tabs.enabled",
         "label": "automatic PIP when switching tabs",
         "defaultValue": false
         
-    },
+    },    
 
 
 
