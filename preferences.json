@@ -70,6 +70,35 @@
         "margin": "10px 0 15px 0",
         "size": "20px"
     },
+    
+    {
+        "type": "dropdown",
+        "value": "number",
+        "property": "browser.urlbar.maxRichResults",
+        "label": "📚 The number of search suggestions",
+        "default": 1,
+        "placeholder": false,
+        "options": [
+
+            {
+                "label": "7(Zen browser Default)",
+                "value": 7
+            },
+            {
+                "label": "8",
+                "value": 8
+            },
+            {
+                "label": "9",
+                "value": 9
+            },
+            {
+                "label": "10(Firefox browser Default)",
+                "value": 10
+            }
+
+        ]
+    },
 
     {
 
