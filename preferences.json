@@ -1,0 +1,74 @@
+[
+
+    {
+        "type": "text",
+        "label": "**General**",
+        "margin": "10px 0 15px 0",
+        "size": "20px"
+    },
+
+    {
+        "type": "separator",
+        "label": ""
+    },
+
+    {
+
+        "type": "checkbox",
+        "property": "zen.urlbar.replace-newtab",
+        "label": "Change the behavior of new tab",
+        "defaultValue": false
+
+    },
+
+    {
+
+        "type": "checkbox",
+        "property": "browser.tabs.hoverPreview.enabled",
+        "label": "Enable tab preview",
+        "defaultValue": false
+        
+    },
+
+    {
+
+        "type": "checkbox",
+        "property": "media.videocontrols.picture-in-picture.enable-when-switching-tabs.enabled",
+        "label": "automatic PIP when switching tabs",
+        "defaultValue": false
+        
+    },
+
+
+
+    {
+        "type": "text",
+        "label": "**Search**",
+        "margin": "10px 0 15px 0",
+        "size": "20px"
+    },
+
+    {
+        "type": "separator",
+        "label": ""
+    },
+
+    {
+
+        "type": "checkbox",
+        "property": "zen.glance.enable-contextmenu-search",
+        "label": "Perform context search using glance",
+        "defaultValue": false
+        
+    },
+    
+    {
+
+        "type": "checkbox",
+        "property": "zen.urlbar.hide-one-offs",
+        "label": "Place the search engine below the search suggestions to provide an efficient way to switch between search engines.(Need restart browser)",
+        "defaultValue": false
+        
+    }
+
+]
