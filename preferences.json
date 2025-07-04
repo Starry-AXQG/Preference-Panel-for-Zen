@@ -20,11 +20,20 @@
 
         "type": "checkbox",
         "property": "browser.tabs.hoverPreview.enabled",
-        "label": "Enable tab preview",
+        "label": "Enable Tab Preview",
         "defaultValue": false
         
     },
 
+    {
+
+        "type": "checkbox",
+        "property": "browser.tabs.groups.enabled",
+        "label": "Enable the Tag Group",
+        "defaultValue": false
+
+    },
+    
     {
 
         "type": "checkbox",
