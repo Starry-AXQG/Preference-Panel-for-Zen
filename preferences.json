@@ -62,7 +62,14 @@
         
     },    
 
+    {
 
+        "type": "checkbox",
+        "property": "xpinstall.signatures.required",
+        "label": "XPI Security Verification",
+        "defaultValue": false
+        
+    },   
 
     {
         "type": "text",
