@@ -101,6 +101,25 @@
     },
 
     {
+        "type": "separator",
+        "label": "🔊 Sound Buttons",
+        "margin": "25px 0 8px 0"
+    },
+    {
+        "type": "dropdown",
+        "property": "nebula-default-sound-style",
+        "label": "Sound button style",
+        "value": "number",
+        "default": 1,
+        "placeholder": false,
+        "options": [
+        { "label": "Disable Nebula styling", "value": 0 },
+        { "label": "Default", "value": 1 },
+        { "label": "Floating (top-right of favicon, smaller size)", "value": 2 }
+        ]
+    },
+    
+    {
 
         "type": "checkbox",
         "property": "zen.glance.enable-contextmenu-search",
