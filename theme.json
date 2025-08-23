@@ -5,7 +5,7 @@
     "homepage": "https://github.com/1247343406/Preference-Panel-for-Zen",
     "image": "none",
     "style": {
-        "chrome": "https://github.com/1247343406/Preference-Panel-for-Zen/blob/private/userChrome.css"
+        "chrome": "https://raw.githubusercontent.com/1247343406/Preference-Panel-for-Zen/refs/heads/private/userChrome.css"
     },
     "readme": "https://raw.githubusercontent.com/1247343406/Preference-Panel-for-Zen/refs/heads/main/README.md",
     "author": "1247343406",
