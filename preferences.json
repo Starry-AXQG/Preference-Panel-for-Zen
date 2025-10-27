@@ -99,7 +99,13 @@
 
         ]
     },
-
+    {
+      "type": "string",
+      "property": "zen.tabs.essentials.max",
+      "label": "Maximum quantity of essentials",
+      "default": "12",
+      "placeholder": "12"
+    },
     {
 
         "type": "checkbox",
