@@ -72,39 +72,19 @@
     },
     
     {
-        "type": "dropdown",
+        "type": "string",
         "value": "number",
         "property": "browser.urlbar.maxRichResults",
-        "label": "📚 The number of search suggestions",
-        "default": 1,
-        "placeholder": false,
-        "options": [
+        "label": "The number of search suggestions",
+        "default": "7"
 
-            {
-                "label": "7(Zen browser Default)",
-                "value": 7
-            },
-            {
-                "label": "8",
-                "value": 8
-            },
-            {
-                "label": "9",
-                "value": 9
-            },
-            {
-                "label": "10(Firefox browser Default)",
-                "value": 10
-            }
-
-        ]
     },
     {
-      "type": "string",
-      "property": "zen.tabs.essentials.max",
-      "label": "Maximum quantity of essentials",
-      "default": "12",
-      "placeholder": "12"
+        "type": "string",
+        "value": "number",
+        "property": "zen.tabs.essentials.max",
+        "label": "Maximum quantity of essentials",
+        "default": "12"
     },
     {
 
