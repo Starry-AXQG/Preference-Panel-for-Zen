@@ -11,7 +11,7 @@
 
         "type": "checkbox",
         "property": "zen.urlbar.replace-newtab",
-        "label": "Change the behavior of New Tab",
+        "label": "Restore the behavior of `Create New Tab`",
         "defaultValue": false
 
     },
@@ -61,9 +61,23 @@
         "defaultValue": false
         
     },    
+    {
 
+        "type": "checkbox",
+        "property": "zen.urlbar.show-pip-button",
+        "label": "Display the PIP button of the address bar",
+        "defaultValue": false
+        
+    },  
 
+    {
 
+        "type": "checkbox",
+        "property": "zen.urlbar.single-toolbar-show-copy-url",
+        "label": "Display 'Copy Link' button in the single toolbar URL address",
+        "defaultValue": false
+        
+    },  
     {
         "type": "text",
         "label": "**Search ——**",
@@ -99,8 +113,8 @@
 
         "type": "checkbox",
         "property": "zen.urlbar.hide-one-offs",
-        "label": "Disenable bottom search engine. Place the search engine below the search suggestions to provide an efficient way to switch between search engines.(Need restart browser)",
-        "defaultValue": false
+        "label": "Disable this to display the hidden search engine bar in URL address",
+        "defaultValue": true
         
     },
 
