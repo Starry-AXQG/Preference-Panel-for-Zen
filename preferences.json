@@ -77,7 +77,15 @@
         "label": "Display 'Copy Link' button in the single toolbar URL address",
         "defaultValue": false
         
-    },  
+    },
+    {
+
+        "type": "checkbox",
+        "property": "browser.tabs.closeWindowWithLastTab",
+        "label": "Close the browser window when the last tab is closed",
+        "defaultValue": false
+        
+    },        
     {
         "type": "text",
         "label": "**Search ——**",
