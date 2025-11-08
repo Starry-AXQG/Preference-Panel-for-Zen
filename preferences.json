@@ -11,7 +11,7 @@
 
         "type": "checkbox",
         "property": "zen.urlbar.replace-newtab",
-        "label": "Restore the behavior of `Create New Tab`",
+        "label": "Disable to restore the behavior of `Create New Tab`",
         "defaultValue": false
 
     },
