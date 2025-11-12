@@ -1,11 +1,10 @@
 [
 
     {
-        "type": "text",
-        "label": "**General ——**",
-        "margin": "10px 0 15px 0",
-        "size": "20px"
-    },
+        "type": "separator",
+        "label": "🛠️ General",
+        "margin": "15px 0 15px 0"
+    },    
 
     {
 
@@ -85,12 +84,12 @@
         "label": "Close the browser window when the last tab is closed",
         "defaultValue": false
         
-    },        
+    },
+      
     {
-        "type": "text",
-        "label": "**Search ——**",
-        "margin": "10px 0 15px 0",
-        "size": "20px"
+        "type": "separator",
+        "label": "🔍 Search",
+        "margin": "15px 0 15px 0"
     },
     
     {
