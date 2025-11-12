@@ -94,20 +94,13 @@
     },
     
     {
-        "type": "string",
-        "value": "number",
-        "property": "browser.urlbar.maxRichResults",
-        "label": "The number of search suggestions",
-        "default": "7"
 
+        "type": "checkbox",
+        "property": "browser.tabs.insertAfterCurrent",
+        "label": "Always create a new tab after the current tab."
+        
     },
-    {
-        "type": "string",
-        "value": "number",
-        "property": "zen.tabs.essentials.max",
-        "label": "Maximum quantity of essentials",
-        "default": "12"
-    },
+
     {
 
         "type": "checkbox",
@@ -124,6 +117,21 @@
         "label": "Disable this to display the hidden search engine bar in URL address",
         "defaultValue": true
         
+    },
+    {
+        "type": "string",
+        "value": "number",
+        "property": "browser.urlbar.maxRichResults",
+        "label": "The number of search suggestions",
+        "default": "7"
+
+    },
+    {
+        "type": "string",
+        "value": "number",
+        "property": "zen.tabs.essentials.max",
+        "label": "Maximum quantity of essentials",
+        "default": "12"
     },
 
     {
