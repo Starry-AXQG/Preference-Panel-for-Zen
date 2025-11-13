@@ -21,7 +21,7 @@ This mod can only be installed using Sine.
 
 Copy the current repository's URL from the browser's URL address bar
 
-`[Right-click to copy this link](https://github.com/Starry-AXQG/Preference-Panel-for-Zen)`
+[Right-click to copy this link](https://github.com/Starry-AXQG/Preference-Panel-for-Zen)
 
        
 **2.Second**
