@@ -4,7 +4,15 @@
         "type": "separator",
         "label": "🛠️ General",
         "margin": "15px 0 15px 0"
-    },    
+    },  
+
+    {
+        "type": "string",
+        "value": "string",
+        "property": "pref-font-family",
+        "label": "Browser font",
+        "default": "Microsoft Yahei"
+    },
 
     {
         "type": "checkbox",
