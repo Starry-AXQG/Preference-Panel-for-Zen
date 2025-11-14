@@ -7,7 +7,8 @@
 
 <h2 align="center">Allow you to easily enable hidden features Zen browser. </h2>
 
-![PixPin_2025-11-13_13-21-09](https://github.com/user-attachments/assets/8dd9b697-b566-4f4e-b3f1-c94818d8ed44)
+![PixPin_2025-11-14_19-26-16](https://github.com/user-attachments/assets/9278547c-24e1-49d4-99a7-f9c036f72243)
+
 
 
 
