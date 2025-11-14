@@ -1,3 +1,11 @@
 :root{
         font-family: var(--pref-font-family, "Microsoft Yahei") !important;
-      }   
+      }
+
+@media not (-moz-pref("browser.profiles.enabled",true)){
+  #appMenu-empty-profiles-button,
+  #profiles-menu,
+  #appMenu-profiles-button{
+  display:none !important;
+}
+}
