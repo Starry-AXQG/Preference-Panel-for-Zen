@@ -2,7 +2,7 @@
         font-family: var(--pref-font-family, "Microsoft Yahei") !important;
       }
 
-@media not (-moz-pref("browser.profiles.enabled",true)){
+@media (not (-moz-pref("browser.profiles.enabled",true))) or (-moz-pref("cmi-Hide-profiles",true)){
   #appMenu-empty-profiles-button,
   #profiles-menu,
   #appMenu-profiles-button{
