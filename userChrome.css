@@ -9,22 +9,3 @@
   display:none !important;
 }
 }
-
-.share-tab-url-item {
-  display: none;
-}
-menuseparator::before {
-    opacity: 0.45 !important;
-}
-
-#urlbar-go-button {
-  display: flex !important;
-  order: 99 !important;
-  height: 30px !important;
-  width: 30px !important;
-}
-#urlbar {
-  &:not([open]) #urlbar-go-button {
-    display: none !important;
-  }
-}
