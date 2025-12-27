@@ -9,11 +9,11 @@
     },
     "readme": "https://raw.githubusercontent.com/Starry-AXQG/Preference-Panel-for-Zen/refs/heads/main/README.md",
     "author": "Starry-AXQG",
-    "version": "1.2.1.1",
+    "version": "1.2.2",
     "tags": [
         "Preference"
     ],
     "createdAt": "2025-07-03",
-    "updatedAt": "2025-11-17",
+    "updatedAt": "2025-12-27",
     "fork": ["zen"]
 }

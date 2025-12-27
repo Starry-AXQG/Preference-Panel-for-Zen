@@ -10,73 +10,63 @@
         "type": "string",
         "value": "string",
         "property": "pref-font-family",
-        "label": "Browser font",
-        "default": "Microsoft Yahei"
+        "label": "Browser font"
     },
 
     {
         "type": "checkbox",
         "property": "zen.urlbar.replace-newtab",
-        "label": "Disable to restore the behavior of `Create New Tab`",
-        "defaultValue": false
+        "label": "Disable to restore the behavior of `Create New Tab`"
     },
 
     {
         "type": "checkbox",
         "property": "browser.tabs.hoverPreview.enabled",
-        "label": "Enable Tab Preview",
-        "defaultValue": false  
+        "label": "Enable Tab Preview"
     },
 
     {
         "type": "checkbox",
         "property": "browser.tabs.groups.enabled",
-        "label": "Enable the Tab Group",
-        "defaultValue": false
+        "label": "Enable the Tab Group"
     },
     
 
     {
         "type": "checkbox",
         "property": "gfx.webrender.super-resolution.nvidia",
-        "label": "Enable NVIDIA VSR (It must be enabled simultaneously with the settings below. ⚠️ Note: Some mods may prevent VSR from functioning properly, such as Nebula.)",
-        "defaultValue": false     
+        "label": "Enable NVIDIA VSR (It must be enabled simultaneously with the settings below. ⚠️ Note: Some mods may prevent VSR from functioning properly, such as Nebula.)"   
     },
     {
         "type": "checkbox",
         "property": "gfx.webrender.dcomp-video-hw-overlay-win-force-enabled",
-        "label": "Enable NVIDIA VSR (It must be enabled simultaneously with the settings above. ⚠️ Note: Some mods may prevent VSR from functioning properly, such as Nebula.)",
-        "defaultValue": false      
+        "label": "Enable NVIDIA VSR (It must be enabled simultaneously with the settings above. ⚠️ Note: Some mods may prevent VSR from functioning properly, such as Nebula.)"     
     },
 
 
     {
         "type": "checkbox",
         "property": "media.videocontrols.picture-in-picture.enable-when-switching-tabs.enabled",
-        "label": "automatic PIP when switching tabs",
-        "defaultValue": false       
+        "label": "automatic PIP when switching tabs"      
     },   
 
     {
         "type": "checkbox",
         "property": "zen.urlbar.show-pip-button",
-        "label": "Display the PIP button of the address bar",
-        "defaultValue": false       
+        "label": "Display the PIP button of the address bar"
     },  
 
     {
         "type": "checkbox",
         "property": "zen.urlbar.single-toolbar-show-copy-url",
-        "label": "Display 'Copy Link' button in the single toolbar URL address",
-        "defaultValue": false       
+        "label": "Display 'Copy Link' button in the single toolbar URL address"     
     },
 
     {
 
         "type": "checkbox",
         "property": "browser.tabs.closeWindowWithLastTab",
-        "label": "Close the browser window when the last tab is closed",
-        "defaultValue": false
+        "label": "Close the browser window when the last tab is closed"
         
     },
       
@@ -95,31 +85,27 @@
     {
         "type": "checkbox",
         "property": "zen.glance.enable-contextmenu-search",
-        "label": "Perform context search using glance",
-        "defaultValue": false       
+        "label": "Perform context search using glance"    
     },
     
     {
         "type": "checkbox",
         "property": "zen.urlbar.hide-one-offs",
-        "label": "Disable this to display the hidden search engine bar in URL address",
-        "defaultValue": true       
+        "label": "Disable this to display the hidden search engine bar in URL address"     
     },
 
     {
         "type": "string",
         "value": "number",
         "property": "browser.urlbar.maxRichResults",
-        "label": "The number of search suggestions",
-        "default": "7"
+        "label": "The number of search suggestions"
     },
 
     {
         "type": "string",
         "value": "number",
         "property": "zen.tabs.essentials.max",
-        "label": "Maximum quantity of essentials",
-        "default": "12"
+        "label": "Maximum quantity of essentials"
     },
     
     {
@@ -144,6 +130,12 @@
         "type": "checkbox",
         "property": "browser.ml.linkPreview.enabled",
         "label": "Enable function AI link preview"
+    },
+
+    {
+        "type": "checkbox",
+        "property": "browser.bookmarks.openInTabClosesMenu",
+        "label": "Automatically close the menu after opening the bookmark."
     },
 
     {
