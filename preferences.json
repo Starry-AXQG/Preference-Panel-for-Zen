@@ -9,7 +9,7 @@
     {
         "type": "string",
         "value": "string",
-        "property": "pref-font-family",
+        "property": "prefP-font-family",
         "label": "Browser font"
     },
 
