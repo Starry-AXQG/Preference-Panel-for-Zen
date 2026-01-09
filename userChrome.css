@@ -1,15 +1,15 @@
 :root{
-        font-family: var(--prefP-font-family, "Microsoft Yahei") !important;
+        font-family: var(--pref-font-family, "Microsoft Yahei") !important;
       }
 
-@media (not (-moz-pref("browser.profiles.enabled",true))) or (-moz-pref("prefP-hide-profiles",true)) {
+@media (not (-moz-pref("browser.profiles.enabled",true))) or (-moz-pref("pref-hide-profiles",true)) {
   #appMenu-empty-profiles-button,
   #profiles-menu,
   #appMenu-profiles-button{
   display:none !important;
 }
 }
-@media (-moz-pref("prefP-hide-menuseparator",true)) {
+@media (-moz-pref("pref-hide-menuseparator",true)) {
   #frame-sep,
   .share-tab-url-item {
     display: none;
