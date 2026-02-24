@@ -15,3 +15,8 @@
     display: none;
   }
 }
+/* 强制调整Zen浏览器窗口限制的最小尺寸 */
+#main-window {
+    min-width: 480px !important;  /* 1920/4=480 */
+    min-height: 270px !important; /* 1080/4=270 */
+}
