@@ -17,6 +17,6 @@
 }
 /* 强制调整Zen浏览器窗口限制的最小尺寸 */
 #main-window {
-    min-width: 650px !important;
+    min-width: 480px !important;
     min-height: 100px !important;
 }
