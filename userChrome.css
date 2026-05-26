@@ -1,22 +1,40 @@
+/* 🧩 === 1.自定义浏览器全局字体 === */
 :root{
         font-family: var(--pref-font-family, "Microsoft Yahei") !important;
       }
 
-@media (not (-moz-pref("browser.profiles.enabled",true))) or (-moz-pref("pref-hide-profiles",true)) {
-  #appMenu-empty-profiles-button,
-  #profiles-menu,
-  #appMenu-profiles-button{
-  display:none !important;
-}
-}
+
+/* 🧩 === 2.自定义隐藏项 === */
 @media (-moz-pref("pref-hide-menuseparator",true)) {
   #frame-sep,
   .share-tab-url-item {
     display: none;
   }
 }
-/* 强制调整Zen浏览器窗口限制的最小尺寸 */
+
+
+/* 🧩 === 3.强制调整Zen浏览器窗口限制的最小尺寸 === */
 #main-window {
     min-width: 480px !important;
     min-height: 100px !important;
+}
+
+
+/* 🧩 === 4.新版本样式回退 === */
+
+/* 对于启用“添加备注”功能的浏览器：隐藏标签页预览中的添加备注按钮，并将缩略图容器的顺序调整到最后 */
+.tab-preview-add-note {
+  display: none;
+}
+.tab-preview-thumbnail-container {
+  order: 999;
+}
+
+/* 隐藏AppMenu中的个人资料按钮和菜单项（如果启用个人资料功能） */
+@media (not (-moz-pref("browser.profiles.enabled",true))) or (-moz-pref("pref-hide-profiles",true)) {
+  #appMenu-empty-profiles-button,
+  #profiles-menu,
+  #appMenu-profiles-button{
+  display:none !important;
+}
 }
