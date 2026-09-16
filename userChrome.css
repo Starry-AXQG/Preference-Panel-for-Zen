@@ -40,7 +40,7 @@
 }
 }
 
-/* 🧩 ------------------------- 5.QUIETIFY SOUND ICON ------------------------- */
+/* 🧩 ------------------------- 5.自定义音频图标 QUIETIFY SOUND ICON ------------------------- */
 @media not (-moz-pref("nebula-default-sound-style", 0)) {
   .tab-audio-button {
     display: none !important;
@@ -101,6 +101,7 @@
     }
   }
 
+/* 样式一：音频图标替换favicon，鼠标悬停时浮动显示 */
   @media (not (-moz-pref("zen.view.sidebar-expanded"))) and (-moz-pref("nebula-default-sound-style", 1)) {
     .tabbrowser-tab:is([soundplaying], [muted], [activemedia-blocked]):hover
       img {
@@ -125,6 +126,7 @@
     }
   }
 
+/* 样式二： 音频图标始终浮动显示 */
   @media (-moz-pref("nebula-default-sound-style",2)) {
     .tabbrowser-tab:is([soundplaying], [muted], [activemedia-blocked]) img {
       opacity: 1 !important;
