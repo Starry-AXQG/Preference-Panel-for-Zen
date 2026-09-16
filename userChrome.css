@@ -40,7 +40,7 @@
 }
 }
 
-/* 🧩 ------------------------- 5.自定义音频图标 QUIETIFY SOUND ICON ------------------------- */
+/* 🧩 === 5.自定义音频图标 QUIETIFY SOUND ICON === */
 @media not (-moz-pref("nebula-default-sound-style", 0)) {
   .tab-audio-button {
     display: none !important;
