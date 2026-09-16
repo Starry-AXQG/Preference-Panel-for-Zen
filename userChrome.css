@@ -41,9 +41,12 @@
 }
 
 /* 🧩 ------------------------- 5.QUIETIFY SOUND ICON ------------------------- */
-@media not (-moz-pref("nebula-default-sound-style", 0)) {
   .tab-audio-button {
     display: none !important;
+  }
+
+  .zen-essentials-container .tab-icon-overlay {
+    pointer-events: none !important;
   }
 
   .tabbrowser-tab img {
@@ -65,17 +68,17 @@
       scale: 1.3 !important;
       opacity: 0.9 !important;
       margin: 0 3px !important;
-      background: white !important;
+      background: none !important;
 
-      --play-svg: url("data:image/svg+xml,%3Csvg%20width%3D%2214%22%20height%3D%2214%22%20viewBox%3D%220%200%20135%20140%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill%3D%22%22%3E%3Crect%20y%3D%2210%22%20width%3D%2215%22%20height%3D%22120%22%20rx%3D%226%22%3E%3Canimate%20attributeName%3D%22height%22%20begin%3D%220.5s%22%20dur%3D%221s%22%20values%3D%22120%3B110%3B100%3B90%3B80%3B70%3B60%3B50%3B40%3B140%3B120%22%20calcMode%3D%22linear%22%20repeatCount%3D%22indefinite%22%2F%3E%3Canimate%20attributeName%3D%22y%22%20begin%3D%220.5s%22%20dur%3D%221s%22%20values%3D%2210%3B15%3B20%3B25%3B30%3B35%3B40%3B45%3B50%3B0%3B10%22%20calcMode%3D%22linear%22%20repeatCount%3D%22indefinite%22%2F%3E%3C%2Frect%3E%3Crect%20x%3D%2230%22%20y%3D%2210%22%20width%3D%2215%22%20height%3D%22120%22%20rx%3D%226%22%3E%3Canimate%20attributeName%3D%22height%22%20begin%3D%220.25s%22%20dur%3D%221s%22%20values%3D%22120%3B110%3B100%3B90%3B80%3B70%3B60%3B50%3B40%3B140%3B120%22%20calcMode%3D%22linear%22%20repeatCount%3D%22indefinite%22%2F%3E%3Canimate%20attributeName%3D%22y%22%20begin%3D%220.25s%22%20dur%3D%221s%22%20values%3D%2210%3B15%3B20%3B25%3B30%3B35%3B40%3B45%3B50%3B0%3B10%22%20calcMode%3D%22linear%22%20repeatCount%3D%22indefinite%22%2F%3E%3C%2Frect%3E%3Crect%20x%3D%2260%22%20width%3D%2215%22%20height%3D%22140%22%20rx%3D%226%22%3E%3Canimate%20attributeName%3D%22height%22%20begin%3D%220s%22%20dur%3D%221s%22%20values%3D%22120%3B110%3B100%3B90%3B80%3B70%3B60%3B50%3B40%3B140%3B120%22%20calcMode%3D%22linear%22%20repeatCount%3D%22indefinite%22%2F%3E%3Canimate%20attributeName%3D%22y%22%20begin%3D%220s%22%20dur%3D%221s%22%20values%3D%2210%3B15%3B20%3B25%3B30%3B35%3B40%3B45%3B50%3B0%3B10%22%20calcMode%3D%22linear%22%20repeatCount%3D%22indefinite%22%2F%3E%3C%2Frect%3E%3Crect%20x%3D%2290%22%20y%3D%2210%22%20width%3D%2215%22%20height%3D%22120%22%20rx%3D%226%22%3E%3Canimate%20attributeName%3D%22height%22%20begin%3D%220.25s%22%20dur%3D%221s%22%20values%3D%22120%3B110%3B100%3B90%3B80%3B70%3B60%3B50%3B40%3B140%3B120%22%20calcMode%3D%22linear%22%20repeatCount%3D%22indefinite%22%2F%3E%3Canimate%20attributeName%3D%22y%22%20begin%3D%220.25s%22%20dur%3D%221s%22%20values%3D%2210%3B15%3B20%3B25%3B30%3B35%3B40%3B45%3B50%3B0%3B10%22%20calcMode%3D%22linear%22%20repeatCount%3D%22indefinite%22%2F%3E%3C%2Frect%3E%3Crect%20x%3D%22120%22%20y%3D%2210%22%20width%3D%2215%22%20height%3D%22120%22%20rx%3D%226%22%3E%3Canimate%20attributeName%3D%22height%22%20begin%3D%220.5s%22%20dur%3D%221s%22%20values%3D%22120%3B110%3B100%3B90%3B80%3B70%3B60%3B50%3B40%3B140%3B120%22%20calcMode%3D%22linear%22%20repeatCount%3D%22indefinite%22%2F%3E%3Canimate%20attributeName%3D%22y%22%20begin%3D%220.5s%22%20dur%3D%221s%22%20values%3D%2210%3B15%3B20%3B25%3B30%3B35%3B40%3B45%3B50%3B0%3B10%22%20calcMode%3D%22linear%22%20repeatCount%3D%22indefinite%22%2F%3E%3C%2Frect%3E%3C%2Fsvg%3E");
-      --mute-svg: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTQiIHZpZXdCb3g9IjAgMCAxMzYgMTQwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNmZmYiPjxyZWN0IHg9IjQiIHk9IjcwIiB3aWR0aD0iMTUiIGhlaWdodD0iMTUiIHJ4PSI2Ii8+PHJlY3QgeD0iMzQiIHk9IjcwIiB3aWR0aD0iMTUiIGhlaWdodD0iMTUiIHJ4PSI2Ii8+PHJlY3QgeD0iNjQiIHk9IjcwIiB3aWR0aD0iMTUiIGhlaWdodD0iMTUiIHJ4PSI2Ii8+PHJlY3QgeD0iOTQiIHk9IjcwIiB3aWR0aD0iMTUiIGhlaWdodD0iMTUiIHJ4PSI2Ii8+PHJlY3QgeD0iMTI0IiB5PSI3MCIgd2lkdGg9IjE1IiBoZWlnaHQ9IjE1IiByeD0iNiIvPjwvc3ZnPg==");
+      --play-svg: url("data:image/svg+xml,%3Csvg width='14' height='14' viewBox='0 0 135 140' xmlns='http://www.w3.org/2000/svg' fill='context-fill'%3E%3Crect fill='contentFill' y='10' width='15' height='120' rx='6'%3E%3Canimate attributeName='height' begin='0.5s' dur='1s' values='120;110;100;90;80;70;60;50;40;140;120' calcMode='linear' repeatCount='indefinite'/%3E%3Canimate attributeName='y' begin='0.5s' dur='1s' values='10;15;20;25;30;35;40;45;50;0;10' calcMode='linear' repeatCount='indefinite'/%3E%3C/rect%3E%3Crect fill='contentFill' x='30' y='10' width='15' height='120' rx='6'%3E%3Canimate attributeName='height' begin='0.25s' dur='1s' values='120;110;100;90;80;70;60;50;40;140;120' calcMode='linear' repeatCount='indefinite'/%3E%3Canimate attributeName='y' begin='0.25s' dur='1s' values='10;15;20;25;30;35;40;45;50;0;10' calcMode='linear' repeatCount='indefinite'/%3E%3C/rect%3E%3Crect fill='contentFill' x='60' width='15' height='140' rx='6'%3E%3Canimate attributeName='height' begin='0s' dur='1s' values='120;110;100;90;80;70;60;50;40;140;120' calcMode='linear' repeatCount='indefinite'/%3E%3Canimate attributeName='y' begin='0s' dur='1s' values='10;15;20;25;30;35;40;45;50;0;10' calcMode='linear' repeatCount='indefinite'/%3E%3C/rect%3E%3Crect fill='contentFill' x='90' y='10' width='15' height='120' rx='6'%3E%3Canimate attributeName='height' begin='0.25s' dur='1s' values='120;110;100;90;80;70;60;50;40;140;120' calcMode='linear' repeatCount='indefinite'/%3E%3Canimate attributeName='y' begin='0.25s' dur='1s' values='10;15;20;25;30;35;40;45;50;0;10' calcMode='linear' repeatCount='indefinite'/%3E%3C/rect%3E%3Crect fill='contentFill' x='120' y='10' width='15' height='120' rx='6'%3E%3Canimate attributeName='height' begin='0.5s' dur='1s' values='120;110;100;90;80;70;60;50;40;140;120' calcMode='linear' repeatCount='indefinite'/%3E%3Canimate attributeName='y' begin='0.5s' dur='1s' values='10;15;20;25;30;35;40;45;50;0;10' calcMode='linear' repeatCount='indefinite'/%3E%3C/rect%3E%3C/svg%3E");
+      --mute-svg: url("data:image/svg+xml,%3Csvg width='14' height='14' fill='context-fill' viewBox='0 0 136 140' xmlns='http://www.w3.org/2000/svg'%3E%3Crect fill='content-fill' x='4' y='70' width='15' height='15' rx='6'/%3E%3Crect fill='content-fill' x='34' y='70' width='15' height='15' rx='6'/%3E%3Crect fill='content-fill' x='64' y='70' width='15' height='15' rx='6'/%3E%3Crect fill='content-fill' x='94' y='70' width='15' height='15' rx='6'/%3E%3Crect x='124' y='70' width='15' height='15' rx='6'/%3E%3C/svg%3E");
 
       mask-size: 10px 10px !important;
       mask-repeat: no-repeat !important;
       mask-position: center !important;
     }
 
-    @media (prefers-color-scheme: light) {
+    @media (prefers-color-scheme: dark) {
       &:is([soundplaying], [muted], [activemedia-blocked]) {
         filter: invert(1);
       }
@@ -83,68 +86,43 @@
 
     &:is([activemedia-blocked]) {
       background: none !important;
-      list-style-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEb0lEQVR4nO2YW4hWVRTHP7URvM6ooWYa1kPlQ4GXxISyC4mUVg/RZQyjKLUsUcsmJRm8pqUgXSCRbhZCqT1mkARaWm+l9qK9jCKZ2KhUD4nWLxbuM/1ncfb3nfPNGaeH84cPPtZ/n7XX2pe1/3tXKiVKlChR4v8I4BZgFtCnB/q+AnjQYuiqo2bgby6htbAIs/e/KvRtMTxWr5PpwHn+w3uFR1o7hg+kf4vlnrwOrgHaxckp4Npuizgex3Wh7wS/AWOyftwH2C8f/wFM6Pao4/FMDDEk+BboneXDBXTGbMe/CvwKbOqGoFcCx4Hlzv64i2l+LUdXAmflg22Of9E5bCowif7O92LHfyLcGWBYNWerXePhwt0JXBT+G6BXUYmEPvaKf+trmnAj3CCvjDkZ5Bq2CDcwTHmCX4DRRSYR+hkNnJR+jgEDhH/FDfTANCdPukaDhXtNuL+AKe7Qmgc8kjNoKyrPAwuBBrHfGvpIsEa4wSG2BE+kOf5aGrwl9mGuarzhvtsqXOZkgOfku3cdt1G434Ghwr0t3B7vtNGt/8nCLXUzpU7nC5c+QvFEnnXfzhVuqFvmS4WbIvYLunIqQUslOKWbGDgk3GqxD3HTvE+XSGjTFxgXfn1TOPtGD7sm4dcId1DsvYHTwt2nTtcJ8anbfIrxkQrX7ipc/7A8zkkb+/860E/aDXeDsUq4Ca7vq4XbkbaHjNglRMdhZEJN7G1upn4W7mWXxHfEccAl0yLcEbH3cpXyUXcoJ9ihiRwU4qHIqOtM3Sh2U6YjIhs1hg3S/ipR2IYbhNtOyrkBPCz2HzURzfx2sW8T+2axPyD2Q27d63KK4awruT8Jd3+KjDd8KPZpYj+miZyJ7IPPI8tHK84XYrdNnRU68rvTdBSwROy7IvunPW8iLZGyuzuy5GrhevnuS7HP60oiurRuE/tHGZbW4R5eWm15N/tnkZG3jTpSOCuxtbBe2o8C/onM1PYMm/0HTWRnpPzanV0FnJbfo5Fl1y+U2Bj2u/K7rI7yuyJWftdGyuwYF8T4yLR7yW/JbHAyw/6vd0lEpTmXboaxA3FnmtowYmYViXI4okSb3L0+TaI0iERJ46pJlLVpZ0WQKNY2wb1eNJoAS9DxjmRl142qisa5btSeqdSnfg1PO8WtM/WScFPFbjEPqibj36wi4ze677YI15wjEbuLJNjiuE1VZPw7wn2V92K1zr0vTXUXq6dsM+a5+oZS/UKYmQY34ucjirvRzdScvFfdAa6CnMz8vtS1q26biVDhlwvXnnrVzfD4cIe7fH1f5OND2MQH3PpX3TfSHbattZ6DVK587PjFdEZjgYlY34pFjtfD0arWkLzVxD/Q2fSeUCleYDKbQ5DLnH1O7uoYXjfsWTKBVayJlR4CMAn4U+LZm+nJVE50/4g9ttujdrCHc/eIfVpP+EywJ3xXBjvV+ssB4H3p32K5q15HzVKpOp5kLheA1tD3RRWN9Tq7Cbi7sOjyl+QZwM090X+JEiVKlKjUwr/rwkME7dPwYwAAAABJRU5ErkJggg==") !important;
+      list-style-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' width='50' height='50' fill='context-fill'%3E%3Cpath d='M0 0 C3.04261908 0.3259949 3.9801219 0.97895261 6.125 3.25 C10.80067538 10.10765723 10.75854626 16.90274712 10 25 C8.66711552 29.34664789 6.52293264 33.06274382 3 36 C2.01 36 1.02 36 0 36 C0.42169501 32.62643988 1.39501858 30.21733512 3.0625 27.3125 C5.50413884 22.5633783 5.85977999 18.25050108 5 13 C4.14055749 10.79165669 3.13574067 8.81508888 1.95703125 6.76171875 C0.76616226 4.56954766 0.30807164 2.46457311 0 0 Z ' fill='contentFill' transform='translate(39,7)'/%3E%3Cpath d='M0 0 C-0.42169501 3.37356012 -1.39501858 5.78266488 -3.0625 8.6875 C-5.50449752 13.43731936 -5.85850686 17.7489386 -5 23 C-4.15206056 25.21300786 -3.18125823 27.17494133 -1.97265625 29.2109375 C-0.93389937 31.12158268 -0.44382988 32.87896037 0 35 C-1.32 35 -2.64 35 -4 35 C-10.01293051 28.81021859 -10.43744298 22.76985381 -10.32421875 14.4609375 C-9.75779176 8.41449998 -7.0335703 0 0 0 Z ' fill='contentFill' transform='translate(11,7)'/%3E%3Cpath d='M0 0 C2.125 0.375 2.125 0.375 4 1 C3.566875 1.8353125 3.566875 1.8353125 3.125 2.6875 C2.75375 3.450625 2.3825 4.21375 2 5 C1.608125 5.721875 1.21625 6.44375 0.8125 7.1875 C-0.36227113 11.25401546 0.02392228 14.90354783 1 19 C2.51553153 21.30166675 2.51553153 21.30166675 4 23 C3.67 23.99 3.34 24.98 3 26 C0.25362183 25.62118922 -0.80049058 25.22167713 -2.6875 23.125 C-5.63236254 18.35712732 -5.49017296 13.43415881 -5 8 C-3.66362375 4.598315 -2.56521154 2.56521154 0 0 Z ' fill='contentFill' transform='translate(12,12)'/%3E%3Cpath d='M0 0 C2.77995714 0.27799571 3.79782921 0.77536579 5.6875 2.875 C8.63236254 7.64287268 8.49017296 12.56584119 8 18 C6.66362375 21.401685 5.56521154 23.43478846 3 26 C0.875 25.625 0.875 25.625 -1 25 C-0.71125 24.443125 -0.4225 23.88625 -0.125 23.3125 C0.24625 22.549375 0.6175 21.78625 1 21 C1.5878125 19.9171875 1.5878125 19.9171875 2.1875 18.8125 C3.74737899 13.41291887 2.65919932 8.50297445 0.4375 3.4375 C-0.2740625 2.2309375 -0.2740625 2.2309375 -1 1 C-0.67 0.67 -0.34 0.34 0 0 Z ' fill='contentFill' transform='translate(35,12)'/%3E%3Cpath d='M0 0 C2.9375 0.8125 2.9375 0.8125 4.9375 3.8125 C4.75 6.875 4.75 6.875 3.9375 9.8125 C0.9375 11.8125 0.9375 11.8125 -2.125 11.625 C-5.0625 10.8125 -5.0625 10.8125 -7.0625 7.8125 C-6.875 4.75 -6.875 4.75 -6.0625 1.8125 C-3.0625 -0.1875 -3.0625 -0.1875 0 0 Z ' fill='contentFill' transform='translate(26.0625,19.1875)'/%3E%3Cpath d='M0 0 C1.32 0 2.64 0 4 0 C6.96681758 4.62823543 7.19975858 7.69786373 6.51953125 12.94921875 C6 15 6 15 4 18 C2.68 18 1.36 18 0 18 C0.144375 17.29875 0.28875 16.5975 0.4375 15.875 C0.623125 14.92625 0.80875 13.9775 1 13 C1.226875 11.96875 1.45375 10.9375 1.6875 9.875 C2.33229486 6.80363259 2.33229486 6.80363259 0 4 C0 2.68 0 1.36 0 0 Z ' fill='contentFill' transform='translate(30,16)'/%3E%3Cpath d='M0 0 C1.32 0.33 2.64 0.66 4 1 C3.855625 1.53625 3.71125 2.0725 3.5625 2.625 C2.89773488 5.43178607 2.30555651 8.12776882 2 11 C2.99 12.485 2.99 12.485 4 14 C4 15.32 4 16.64 4 18 C2.68 18 1.36 18 0 18 C-2.96681758 13.37176457 -3.19975858 10.30213627 -2.51953125 5.05078125 C-2 3 -2 3 0 0 Z ' fill='contentFill' transform='translate(16,16)'/%3E%3C/svg%3E%0A") !important;
+      fill: var(--toolbarbutton-icon-fill) !important;
       width: 16px !important;
       height: 16px !important;
       margin: 0 3px !important;
     }
 
     &:is([soundplaying]) {
-      list-style-image: none !important;
-      mask-image: var(--play-svg) !important;
+      list-style-image: var(--play-svg) !important;
+      fill: var(--toolbarbutton-icon-fill) !important;
     }
 
     &:is([muted]) {
-      list-style-image: none !important;
-      mask-image: var(--mute-svg) !important;
+      list-style-image: var(--mute-svg) !important;
+      fill: var(--toolbarbutton-icon-fill) !important;
     }
   }
 
-  @media (not (-moz-pref("zen.view.sidebar-expanded"))) and (-moz-pref("nebula-default-sound-style", 1)) {
-    .tabbrowser-tab:is([soundplaying], [muted], [activemedia-blocked]):hover
-      img {
-      opacity: 1 !important;
-      transition: opacity 0.1s ease-out !important;
-    }
-
-    .tabbrowser-tab:is([soundplaying], [muted], [activemedia-blocked]):hover
-      .tab-icon-overlay {
-      margin: 0 !important;
-      transition:
-        opacity 0.25s ease-out,
-        transform 0.25s ease-out !important;
-      transform: translate(6.9px, -6.9px) scale(0.69) !important;
-    }
-
-    .tabbrowser-tab:is([soundplaying], [muted], [activemedia-blocked])
-      .tab-icon-overlay {
-      transition:
-        opacity 0.25s ease-in,
-        transform 0.25s ease-in !important;
-    }
+  .tabbrowser-tab:is([soundplaying], [muted], [activemedia-blocked]) img {
+    opacity: 1 !important;
+    transition: opacity 0.1s ease-out !important;
   }
 
-  @media (-moz-pref("nebula-default-sound-style",2)) {
-    .tabbrowser-tab:is([soundplaying], [muted], [activemedia-blocked]) img {
-      opacity: 1 !important;
-      transition: opacity 0.1s ease-out !important;
-    }
+  .tabbrowser-tab:is([soundplaying], [muted], [activemedia-blocked])
+    .tab-icon-overlay {
+    margin: 0 !important;
+    transition:
+      opacity 0.25s ease-out,
+      transform 0.25s ease-out !important;
+    transform: translate(6.9px, -6.9px) scale(0.69) !important;
+  }
 
-    .tabbrowser-tab:is([soundplaying], [muted], [activemedia-blocked])
-      .tab-icon-overlay {
-      margin: 0 !important;
-      transition:
-        opacity 0.25s ease-out,
-        transform 0.25s ease-out !important;
-      transform: translate(6.9px, -6.9px) scale(0.69) !important;
-    }
-
-    .tabbrowser-tab:is([soundplaying], [muted], [activemedia-blocked])
-      .tab-icon-overlay {
-      transition:
-        opacity 0.25s ease-in,
-        transform 0.25s ease-in !important;
-    }
+  .tabbrowser-tab:is([soundplaying], [muted], [activemedia-blocked])
+    .tab-icon-overlay {
+    transition:
+      opacity 0.25s ease-in,
+      transform 0.25s ease-in !important;
   }
 
   #zen-essentials-container {
@@ -152,4 +130,3 @@
       margin: 0 !important;
     }
   }
-}
