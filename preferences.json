@@ -137,7 +137,11 @@
         "property": "browser.bookmarks.openInTabClosesMenu",
         "label": "Automatically close the menu after opening the bookmark."
     },
-
+    {
+        "type": "checkbox",
+        "property": "browser.tabs.allow_transparent_browser",
+        "label": "allow browser transparent."
+    },
     {
         "type": "separator",
         "label": "You can remove this mod at any time after completing the preference settings. Removing and installing mods will not have any impact on your changes."
